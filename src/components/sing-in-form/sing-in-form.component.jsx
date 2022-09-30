@@ -30,8 +30,8 @@ const SingInForm = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
+    console.log('work');
 
-   
     try {
      await singInAuthUserWithEmailAndPassword(email,password);
      resetFormFields();
