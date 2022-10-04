@@ -92,7 +92,6 @@ export const createAuthUserWithEmailAndPassword=async (email,password)=>{
 }
 
 export const singInAuthUserWithEmailAndPassword=async (email,password)=>{
-  console.log('work');
   if(!email || !password){
     return
   }
